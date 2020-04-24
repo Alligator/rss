@@ -2,7 +2,7 @@
 
 a simple python script that aggregates rss and atom feeds and generates static HTML pages or plain text from them.
 
-it grabs the previous 90 days' stories from the feed(s) and turns them into a simple HTML list, that looks like this:
+it grabs the previous 90 days' stories from the feed(s) and turns them into a simple HTML list, see exanple output here https://alligatr.co.uk/rss
 
 intended to be run on a schedule, perhaps as a cron job.
 
