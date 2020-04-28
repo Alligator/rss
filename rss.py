@@ -148,9 +148,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('input',
                         help='the URL of a feed or a file containing a newline separated list of feeds')
-    parser.add_argument('--out-html', type=argparse.FileType('w'),
+    parser.add_argument('--out-html', type=argparse.FileType('w', encoding='utf-8'),
                         help='a file to write html output to')
-    parser.add_argument('--out-plain', type=argparse.FileType('w'),
+    parser.add_argument('--out-plain', type=argparse.FileType('w', encoding='utf-8'),
                         help='a file to write plain text output to')
     parser.add_argument('--title',
                         help='a title for the generate page')
